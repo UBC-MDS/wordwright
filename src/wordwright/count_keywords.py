@@ -15,7 +15,7 @@ def count_keywords(text, keywords):
 
     Examples
     --------
-    >>> from textprocessing_group4.textprocessing_group4 import count_keywords
+    >>> from wordwright.wordwright import count_keywords
     >>> test = count_keywords("I like cheese.", ["cheese"])
     """
     # Function code...
