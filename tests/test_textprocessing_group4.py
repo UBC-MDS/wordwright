@@ -1,1 +1,0 @@
-from wordwright import wordwright
