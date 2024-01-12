@@ -1,6 +1,8 @@
 # textprocessing_group4
 
-A package for text processing
+This package is built on top of an existing one `pycounts` (https://pypi.org/project/pycounts/) with additional features that were not included and we think are useful. On top of counting the number of the words, we have added features that allow the user to eliminate common stop words, count occurences of a given set of words, detect if the text is of English language or not, and count the number of sentences and total length of the text.
+
+Our package is similar to `pycounts` and allows the user to conduct word counts for texts, but it is further elaborated so that it can produce results that are more interesting and meaningful in the context of English language by eliminating common stop words such as "a", "the", "and". Additionally, the features to count a given set of words and number of sentences allow the user to get more information of the text file.
 
 ## Functions
 - load_text(file_path):
@@ -15,8 +17,9 @@ text: The text string to be cleaned.
 
 - count_keywords(text, keywords):
 
-Counts the occurrences of specified keywords in the text.
-text: The text in which to count keywords. keywords: A list of keywords to search for.
+Count the occurrences of each keyword in the given text.
+`text`: The text in which to count keywords. 
+`keywords`: A list of keywords to search for.
 
 - count_sentences_and_length(text):
 
@@ -36,10 +39,13 @@ $ pip install textprocessing_group4
 
 ## Usage
 
-- TODO
+```
+from textprocessing_group4.textprocessing_group4 import count_keywords
+test = count_keywords("I like cheese.", ["cheese"])
+```
 
 ## Contributors
-Yi Han, Yi Yan, Hongyang Zhang, Yingzi Jin
+Yi Han, Yingzi Jin, Yi Yan, Hongyang Zhang
 
 ## Contributing
 
