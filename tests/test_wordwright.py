@@ -1,1 +1,1 @@
-from wordwright import wordwright
+from wordwright import count_keywords 
