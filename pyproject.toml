@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "textprocessing_group4"
+name = "wordwright"
 version = "0.1.0"
 description = "A package for text processing"
 authors = ["Group 4"]

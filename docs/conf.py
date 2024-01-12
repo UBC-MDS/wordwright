@@ -6,7 +6,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u"textprocessing_group4"
+project = u"wordwright"
 copyright = u"2024, Group 4"
 author = u"Group 4"
 
