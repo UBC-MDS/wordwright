@@ -6,45 +6,33 @@ Our package is similar to `pycounts` and allows the user to conduct word counts 
 
 ## Functions
 
-- load_text(file_path):
+- `load_text(file_path)`: Load and return the content of a text file. Removing punctuation, converting to lowercase.
 
-Load and return the content of a text file. Removing punctuation, converting to lowercase.
+  - `file_path`: The path to the text file to be read.
 
-- `file_path`: The path to the text file to be read.
+- `clean_text(text)`: Clean a text string by removing punctuation and converting to lowercase.
 
-- clean_text(text):
+  - `text`: The text to be cleaned.
 
-Clean a text string by removing punctuation and converting to lowercase.
+- `count_keywords(text, keywords)`: Count the occurrences of each keyword in the given text.
 
-- `file_path`: The text to be cleaned.
+  - `text`: The text in which to count keywords. 
+  - `keywords`: A list of keywords to search for.
 
-- count_keywords(text, keywords):
+- `count_sentences_and_length(text, punctuation)`: Count the number of sentences and the total number of words in the text. The number of sentences based on specified delimiters.
 
-Count the occurrences of each keyword in the given text.
+  - `text`: The text to be analyzed.
+  - `punctuation`: List of punctuation marks.
 
-- `text`: The text in which to count keywords. 
-- `keywords`: A list of keywords to search for.
+- `language_detection(text)`: Detect if the text is in English or not.
 
-- count_sentences_and_length(text):
+  - `text`: The text to be checked.
 
-Count the number of sentences and the total number of words in the text. The number of sentences based on specified delimiters.
+- `frequent_words(text, number, stopwords)`: Analyzes a given text to find and return the most frequent words, excluding specified stopwords.
 
-- `text`: The text to be analyzed.
-- `punctuation`: List of punctuation marks.
-
-- language_detection(text):
-
-Detect if the text is in English or not.
-
-- `text`: The text to be checked.
-
-- frequent_words(text, number, stopwords):
-
-Analyzes a given text to find and return the most frequent words, excluding specified stopwords.
-
-- `text`: The cleaned text to be analyzed.
-- `number`: The number of most frequent words to return.
-- `stopwords`: A list of words to be excluded from the analysis.
+  - `text`: The cleaned text to be analyzed.
+  - `number`: The number of most frequent words to return.
+  - `stopwords`: A list of words to be excluded from the analysis.
 
 ## Installation
 
