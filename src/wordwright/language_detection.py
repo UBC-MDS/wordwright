@@ -25,6 +25,7 @@ def language_detection(text):
 
     Examples
     --------
-    >>> language_detection("text")
+    >>> language_detection("test text")
+    English
     """
     pass
