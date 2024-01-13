@@ -1,8 +1,10 @@
 # wordwright
 
-This package is built on top of an existing one `pycounts` (https://pypi.org/project/pycounts/) with additional features that were not included and we think are useful. On top of counting the number of the words, we have added features that allow the user to eliminate common stop words, count occurences of a given set of words, detect if the text is of English language or not, and count the number of sentences and total length of the text.
+This Python package `wordwright` focuses on text analysis and processing. It offers a range of functionalities, from basic text cleaning to more complex analyses including language detection, word and sentence counting, word frequency summarizing, and keyword searching. This functionality is particularly useful in fields like data analysis, natural language processing, and anywhere textual data needs to be understood or transformed. The functions are designed to be self-explanatory, which is especially beneficial for those new to programming or text processing. While packages like `pycounts` also provide similar functionalities, our more advanced features can provide users more meaningful and interesting results in the context of English language.
 
-Our package is similar to `pycounts` and allows the user to conduct word counts for texts, but it is further elaborated so that it can produce results that are more interesting and meaningful in the context of English language by eliminating common stop words such as "a", "the", "and". Additionally, the features to count a given set of words and number of sentences allow the user to get more information of the text file.
+**wordwright Use in Python Ecosystem**
+While there are other packages that offer similar functionalities, such as NLTK (Natural Language Toolkit [link](http://nltk.org/))) and TextBlob ([link](https://textblob.readthedocs.io/en/dev/)). `wordwright` distinguishes itself by its simplicity and focus on the most essential text processing features. `wordwright` is designed for ease of use, making it an excellent choice for those who require straightforward text processing capabilities without the overhead of more complex NLP frameworks.
+
 
 ## Functions
 
@@ -37,7 +39,7 @@ Our package is similar to `pycounts` and allows the user to conduct word counts 
 ## Installation
 
 ```bash
-$ pip install textprocessing_group4
+$ pip install wordwright
 ```
 
 ## Usage
