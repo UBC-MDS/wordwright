@@ -28,7 +28,7 @@ $ pip install wordwright
 
 ## `wordwright` Use in Python Ecosystem
 
-While there are other packages that offer similar functions, such as [Natural Language Toolkit link](https://www.nltk.org/) and [TextBlob](https://textblob.readthedocs.io/en/dev/). `wordwright` distinguishes itself by its simplicity and focus on the most essential text processing features. It is designed for ease of use, making it an excellent choice for those who have basic programming knowledge.
+While there are other packages that offer similar functions, such as [Natural Language Toolkit](https://www.nltk.org/) and [TextBlob](https://textblob.readthedocs.io/en/dev/). `wordwright` distinguishes itself by its simplicity and focus on the most essential text processing features. It is designed for ease of use, making it an excellent choice for those who have basic programming knowledge.
 
 ## Contributors
 
