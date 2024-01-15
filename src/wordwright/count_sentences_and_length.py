@@ -19,7 +19,16 @@ def count_sentences_and_length(text, punctuation):
     --------
     >>> from wordwright.wordwright import count_sentences_and_length
     >>> test = count_sentences_and_length("I like cheese! I like cat. I hate fruit", ["!", "."])
-    (2, 6)
+    (2, 9)
     
     """
-    # Function code...
+    sentense_count = 0
+    word_count = 0
+    if text:
+        for word in text:
+            word_count = len(text.split(" "))
+            for punc in punctuation:
+                if word == punc:
+                    sentense_count += 1
+    print(f"There are {sentense_count} sentenses, which is splited by {punctuation}.")
+    print(f"There are a total of {word_count} words in the text.")        
