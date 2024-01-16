@@ -1,5 +1,6 @@
 from string import punctuation
 import os
+import re
 
 def load_text(file_path):
     """ Load and return the content of a text file. 
@@ -28,19 +29,30 @@ def load_text(file_path):
     --------
     >>> load_text("text.txt")
     """
-    try:
-        with open(file_path, "r") as file:
-            txt = file.read()
-        return txt
-    except FileNotFoundError as e:
-        print(e)
-    except OSError as e:
-        print(e)
+    if not isinstance(file_path, str):
+        raise TypeError("The input must be a string.")
+    
+    if not os.path.exists(file_path):
+        raise FileNotFoundError(f"The file at {file_path} was not found.")
+    
+    with open(file_path, "r") as file:
+        txt = file.read()
+    return txt
+    # try:
+    #     with open(file_path, "r") as file:
+    #         txt = file.read()
+    #     return txt
+    # except FileNotFoundError as e:
+    #     print(e)
+    # except OSError as e:
+    #     print(e)
 
 def clean_text(text):
     """
-    Clean a text string by removing punctuation (except apostrophes), converting to 
-    lowercase, and removing excessive spaces and tabs.
+    Clean a text string by removing punctuation (except apostrophes 
+    that directly follow a character), converting to lowercase, and 
+    removing excessive spaces and tabs. Standalone apostrophes or 
+    those not directly following a character are removed.
 
     Parameters
     ----------
@@ -60,13 +72,20 @@ def clean_text(text):
     if not isinstance(text, str):
         raise TypeError("The input must be a string.")
 
-    modified_punctuation = punctuation.replace("'", "")
+    # Remove standalone apostrophes and those not following a character
+    txt = re.sub(r"(?<!\w)'|'(?!\w)", '', text)
 
-    txt = text.lower()
+    # Remove punctuation except apostrophes and convert to lowercase
+    modified_punctuation = punctuation.replace("'", "")
+    txt = txt.lower()
     for p in modified_punctuation:
         txt = txt.replace(p, "")
 
-    # Split the text into words and join back together to remove excessive whitespace
+    # Remove excessive whitespace
     txt = ' '.join(txt.split())
+
+    # # If the remaining string consists only of apostrophes (and spaces), return an empty string
+    # if all(char == "'" or char.isspace() for char in txt):
+    #     return ""
 
     return txt
