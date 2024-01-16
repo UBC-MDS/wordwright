@@ -1,6 +1,7 @@
 import pytest
 from langdetect import LangDetectException
 from wordwright.language_detection import language_detection 
+from unittest.mock import patch
 
 def test_language_detection_english():
     """
@@ -38,4 +39,12 @@ def test_language_detection_non_string_input():
         language_detection(123)
     assert str(excinfo.value) == "Input must be a string."
 
+@patch('wordwright.language_detection.detect')
+def test_language_detection_detection_exception(mock_detect):
+    """
+    Test if the function correctly handles a LangDetectException.
+    """
+    # Set up the mock to raise LangDetectException with the required arguments
+    mock_detect.side_effect = LangDetectException(0, "message")
 
+    assert language_detection("Test text") == "Language detection error"
