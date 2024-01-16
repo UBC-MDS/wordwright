@@ -38,14 +38,7 @@ def load_text(file_path):
     with open(file_path, "r") as file:
         txt = file.read()
     return txt
-    # try:
-    #     with open(file_path, "r") as file:
-    #         txt = file.read()
-    #     return txt
-    # except FileNotFoundError as e:
-    #     print(e)
-    # except OSError as e:
-    #     print(e)
+
 
 def clean_text(text):
     """
@@ -83,9 +76,5 @@ def clean_text(text):
 
     # Remove excessive whitespace
     txt = ' '.join(txt.split())
-
-    # # If the remaining string consists only of apostrophes (and spaces), return an empty string
-    # if all(char == "'" or char.isspace() for char in txt):
-    #     return ""
-
+    
     return txt
