@@ -33,9 +33,9 @@ def load_text(file_path):
             txt = file.read()
         return txt
     except FileNotFoundError as e:
-        print("Error 1: ", e)
+        print(e)
     except OSError as e:
-        print("Error 2: ", e)
+        print(e)
 
 def clean_text(text):
     """

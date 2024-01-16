@@ -14,20 +14,14 @@ def test_load_existing_file():
 def test_load_nonexistent_file():
     # Test loading a file that does not exist
     try:
-        load_text("nonexistent_file.txt")
-    except FileNotFoundError:
-        pass
-    else:
-        assert False, "FileNotFoundError not raised for nonexistent file"
+        file_path = "nonexistent_file.txt"
+        load_text(file_path)
+    except FileNotFoundError as e:
+        assert str(e) == f"[Errno 2] No such file or directory: {file_path}", "FileNotFoundError expected"
 
 def test_load_invalid_file_path():
     # Test loading with an invalid file path
     try:
-        load_text("")
-    except OSError:
-        pass
-    else:
-        assert False, "OSError not raised for invalid file path"
-
-# Clean up the test file after tests
-os.remove(test_file_name)
+        load_text(123)
+    except OSError as e:
+        assert str(e) == "[Errno 9] Bad file descriptor", "OSError with message '[Errno 9] Bad file descriptor' expected"
