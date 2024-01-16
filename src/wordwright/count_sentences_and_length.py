@@ -1,3 +1,5 @@
+from wordwright import clean_text
+
 def count_sentences_and_length(text, punctuation):
     """
     Count the number of sentences and the total number of words in the text. 
@@ -8,7 +10,7 @@ def count_sentences_and_length(text, punctuation):
     text (str)
         The text to be analyzed.
     punctuation (list)
-        List of punctuation marks.
+        List of punctuation marks
     
     Returns
     ----------
@@ -24,11 +26,19 @@ def count_sentences_and_length(text, punctuation):
     """
     sentense_count = 0
     word_count = 0
+    
+    if type(punctuation) != list:
+        raise TypeError("Please enter a list of punctuation")
+        
     if text:
-        for word in text:
-            word_count = len(text.split(" "))
+        for i in range(len(text)):
             for punc in punctuation:
-                if word == punc:
-                    sentense_count += 1
+                if text[i] == punc:
+                    if text[i + 1] == ' ':
+                        sentense_count += 1
+    #word_count = len(clean_text(text).split(" "))
+    
     print(f"There are {sentense_count} sentenses, which is splited by {punctuation}.")
-    print(f"There are a total of {word_count} words in the text.")        
+    print(f"There are a total of {word_count} words in the text.") 
+    
+    return (sentense_count, word_count)         
