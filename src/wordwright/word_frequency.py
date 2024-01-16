@@ -25,11 +25,14 @@ def frequent_words(text, stopwords=[]):
     >>> stopwords = ["the", "over", "was", "very"]
     Counter({'quick': 2, 'fox': 2, 'brown': 1, 'jumps': 1, 'lazy': 1, 'dog': 1})
     """
+    # Check whether the input is a string
     if not isinstance(text, str):
         raise TypeError("The input must be a string.")
 
+    # Check if the stopwords is a list
     if not isinstance(stopwords, list):
         raise TypeError("The input must be a list.")
+    # Check if the all elements in the stopwords are strings
     if not all(isinstance(word, str) for word in stopwords):
         raise TypeError("All items in the 'stopwords' list must be strings.")
     
