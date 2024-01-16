@@ -20,7 +20,7 @@ $ pip install wordwright
 
 -   `count_keywords(text, keywords)`: Counts the occurrences of specified keywords in the text. Required inputs are `text` and `keywords`. After giving a list of keywords, this function return the occurrence of each selected word.
 
--   `count_sentences_and_length(text, punctuation)`: Count the number of sentences and the total number of words in the text. The number of sentences is counted based on specified delimiters. Required inputs are `text` and `punctuation`.
+-   `count_sentences(text, punctuation)`: Count the number of sentences in the text. The number of sentences is counted based on specified delimiters. Required inputs are `text` and `punctuation`.
 
 -   `language_detection(text)`: Detects if the text is in English or not. Required input is `text`, which is the text to be checked for language.
 
