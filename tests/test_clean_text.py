@@ -4,7 +4,10 @@ from wordwright.preprocessing import clean_text
 def test_clean_text_non_string_input():
     """ 
     Test for correct input data types, 
-    e.g., integer, float, boolean
+    
+    This test ensures  the function properly handles input data types
+    that are not strings, such as integers, floats, and booleans. 
+    The function is expected to raise a TypeError in each case.
     """
     with pytest.raises(TypeError):
         clean_text(123)
@@ -18,7 +21,7 @@ def test_clean_text_standard_input():
     Test clean_text with standard text input.
     
     This test checks if clean_text correctly cleans a standard string which 
-    includes punctuation, standalone apostrophes, and  a mixed case letters. 
+    includes punctuation, standalone apostrophes, and a mixed case letters. 
     It verifies that the function converts the string to lowercase and 
     removes all punctuation except apostrophes that directly follow a character.
     """
@@ -38,8 +41,9 @@ def test_clean_text_only_punctuation():
     """
     Test clean_text with a string containing only punctuation.
     
-    This test checks if clean_text properly cleans a string that consists solely of
-    punctuation characters (apostrophes included). The expected output is an empty string.
+    This test checks if clean_text properly cleans a string that consists solely 
+    of punctuation characters (apostrophes included). The expected output is 
+    an empty string.
     """
     assert (clean_text("!!!, ,,,!!!") == 
             ""), "Failed to clean a string with only punctuation"
