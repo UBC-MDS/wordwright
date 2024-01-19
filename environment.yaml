@@ -1,0 +1,7 @@
+name: '524'
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - poetry==1.7.1
+prefix: /Users/f1yingh3ap/miniconda3/envs/524
