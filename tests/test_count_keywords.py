@@ -118,7 +118,7 @@ def test_count_keywords_punctuations_only():
 def test_count_keywords_empty_sentence():
     """
     Test whether count_keywords returns 0 count for all words if the text
-    given is empty or only contains white.
+    given is empty or only contains white spaces.
     """
     text = ""
     keywords = ['a', 'b', '', '   ']
@@ -139,3 +139,14 @@ def test_count_keywords_punctuation_sentence():
     expected = Counter({'': 0, 'a': 0})
     assert count_keywords(text, keywords) == expected, \
     "Punctuations only sentences should be considered empty strings!"
+
+def test_count_keywords_trapped_word():
+    """
+    Test whether count_keywords a word trapped in punctuations a word
+    in the text.
+    """
+    text = "y!-o!u"
+    keywords = ['you']
+    expected = Counter({'you': 1})
+    assert count_keywords(text, keywords) == expected, \
+    "Trapped word should be a considered a word!"

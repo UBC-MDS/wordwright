@@ -23,6 +23,7 @@ def frequent_words(text, stopwords=[]):
     >>> from collections import Counter
     >>> text = "The quick brown fox jumps over the lazy dog. The fox was very quick."
     >>> stopwords = ["the", "over", "was", "very"]
+    >>> frequent_words(text, stopwords)
     Counter({'quick': 2, 'fox': 2, 'brown': 1, 'jumps': 1, 'lazy': 1, 'dog': 1})
     """
     # Check whether the input is a string
