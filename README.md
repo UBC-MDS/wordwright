@@ -10,6 +10,8 @@ This Python package `wordwright` focuses on text analysis and processing. It off
 
 ### Prerequisites
 
+Before proceeding with the installation, ensure you have Miniconda or Anaconda installed on your system. These tools provide support for creating and managing Conda environments.
+
 ### Step 1: Create and Activate the Conda Environment
 
 Create a new Conda environment using the environment.yaml file provided in this repository. This file contains all the necessary dependencies, including Python and Poetry versions.
