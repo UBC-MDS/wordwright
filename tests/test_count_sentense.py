@@ -1,5 +1,5 @@
-from wordwright import count_sentences 
-
+import pytest
+from wordwright.count_sentences import count_sentences 
 
 def test_empty_string():
     """
@@ -7,7 +7,7 @@ def test_empty_string():
     """
     text = ""
     punctuation = ["."]
-    assert count_sentences(text, punctuation) == 0, "Sentenses counted incorrectly"
+    assert count_sentences(text, punctuation) == 0, "Sentences counted incorrectly"
 
 def test_no_punctuation_input():
     """
@@ -15,15 +15,15 @@ def test_no_punctuation_input():
     """
     text = "xcxccfssgjkvvhjmbh"
     punctuation = ["."]
-    assert count_sentences(text, punctuation) == 0, "Sentenses counted incorrectly"
+    assert count_sentences(text, punctuation) == 0, "Sentences counted incorrectly"
 
 def test_invalid_punctuation_input():
     """
     Test that passing a non-list punctuation argument returns False.
     """
-    text = "Hello world! It's a beautiful day? Yes, it is."
-    punctuation = "!"
-    assert count_sentences(text, punctuation) == False, "Invalid punctuation input. Should be a list of punctuation"
+    with pytest.raises(TypeError):
+        count_sentences("Hello world! It's a beautiful day? Yes, it is.", "!")
+        
 
 def test_multiple_sentence_endings():
     """
@@ -31,12 +31,12 @@ def test_multiple_sentence_endings():
     """
     text = "Hello world! It's a beautiful day? Yes, it is."
     punctuation = [".", "?", "!"]
-    assert count_sentences(text, punctuation) == 3, "Sentenses counted incorrectly"
+    assert count_sentences(text, punctuation) == 3, "Sentences counted incorrectly"
 
-def test_multiple_occurrences(self):
+def test_multiple_occurrences():
     """
      Test that the function counts multiple occurrences of punctuation marks as separate sentences.
     """
     text = "Exciting!!! Really exciting!!! Isn't it?"
     punctuation = ["?", "!"]
-    assert count_sentences(text, punctuation) == 3, "Sentenses counted incorrectly"
+    assert count_sentences(text, punctuation) == 7, "Sentences counted incorrectly"

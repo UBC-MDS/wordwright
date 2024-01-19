@@ -17,11 +17,11 @@ def count_sentences(text, punctuation):
     Examples
     --------
     >>> from wordwright.wordwright import count_sentences
-    >>> test = count_sentences_and_length("I like cheese! I like cat. I hate fruit", ["!", "."])
+    >>> test = count_sentences("I like cheese! I like cat. I hate fruit", ["!", "."])
     2
     
     """
-    sentense_count = 0
+    sentence_count = 0
     
     if type(punctuation) != list:
         raise TypeError("Please enter a list of punctuation")
@@ -30,7 +30,6 @@ def count_sentences(text, punctuation):
         for i in range(len(text)):
             for punc in punctuation:
                 if text[i] == punc:
-                    if text[i + 1] == ' ':
-                        sentense_count += 1
-    print(f"There are {sentense_count} sentense(s), which is splited by {punctuation}.")
-    return sentense_count        
+                    sentence_count += 1
+    print(f"There are {sentence_count} sentence(s), which is splited by {punctuation}.")
+    return sentence_count        
