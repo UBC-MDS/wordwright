@@ -16,8 +16,8 @@ def count_sentences(text, punctuation):
     
     Examples
     --------
-    >>> from wordwright.wordwright import count_sentences
-    >>> test = count_sentences("I like cheese! I like cat. I hate fruit", ["!", "."])
+    >>> from wordwright.count_sentences import count_sentences
+    >>> count_sentences("I like cheese! I like cat. I hate fruit", ["!", "."])
     2
     
     """
