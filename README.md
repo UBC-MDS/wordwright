@@ -40,7 +40,7 @@ Once the environment is created, you need to activate it using the following com
 $ conda activate 524
 ```
 
-### Step 2: Install the Package Using Poetry
+### Step 3: Install the Package Using Poetry
 
 With the Conda environment activated, you can now use Poetry to install the package. Ensure that the environment is activated (you should see (524) in your terminal prompt).
 
@@ -66,9 +66,10 @@ To use the `wordwright` package, you can import can call its functions in your P
 Here is an example:
 
 ``` bash
+
 >>> from wordwright.preprocessing import clean_text
 >>> from wordwright.word_frequency import frequent_words
->>> from wordwright.wordwright import count_keywords
+>>> from wordwright.count_keywords import count_keywords
 
 >>> clean_text("It's a sunny day. ,Let's GO!")
 "it's a sunny day let's go"
@@ -80,6 +81,7 @@ Counter({'quick': 2, 'fox': 2, 'brown': 1, 'jumps': 1, 'lazy': 1, 'dog': 1})
 
 >>> count_keywords("I like cheese.", ["cheese"])
 {'cheese': 1}
+
 ```
 
 ## Functions
