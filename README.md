@@ -10,7 +10,19 @@ This Python package `wordwright` focuses on text analysis and processing. It off
 
 ### Prerequisites
 
-### Step 1: Create and Activate the Conda Environment
+Before proceeding with the installation, ensure you have Miniconda or Anaconda installed on your system. These tools provide support for creating and managing Conda environments.
+
+### Step 1: Clone the Repository
+
+Start by cloning the repository to your local machine. Open your terminal and run the following command:
+
+``` bash
+$ git clone git@github.com:UBC-MDS/wordwright.git
+```
+
+Navigate to the directory of the cloned repository.
+
+### Step 2: Create and Activate the Conda Environment
 
 Create a new Conda environment using the environment.yaml file provided in this repository. This file contains all the necessary dependencies, including Python and Poetry versions.
 
@@ -50,21 +62,24 @@ This command reads the pyproject.toml file in your project (if present) and inst
 
 ### Using this package
 
-To use the `wordwright` package, you can import can call its functions in your Python scripts. 
+To use the `wordwright` package, you can import can call its functions in your Python envrionment.
 Here is an example:
 
 ``` bash
-from wordwright.preprocessing import clean_text
-from wordwright.wordwright import count_keywords
+>>> from wordwright.preprocessing import clean_text
+>>> from wordwright.word_frequency import frequent_words
+>>> from wordwright.wordwright import count_keywords
 
-text = "The quick brown fox jumps over the lazy dog. The fox was very quick."
-stopwords = ["the", "over", "was", "very"]
-frequent_words(text, stopwords)
-# Counter({'quick': 2, 'fox': 2, 'brown': 1, 'jumps': 1, 'lazy': 1, 'dog': 1})
+>>> clean_text("It's a sunny day. ,Let's GO!")
+"it's a sunny day let's go"
 
-from wordwright.wordwright import count_keywords
-count_keywords("I like cheese.", ["cheese"])
-# {'cheese': 1}
+>>> text = "The quick brown fox jumps over the lazy dog. The fox was very quick."
+>>> stopwords = ["the", "over", "was", "very"]
+>>> frequent_words(text, stopwords)
+Counter({'quick': 2, 'fox': 2, 'brown': 1, 'jumps': 1, 'lazy': 1, 'dog': 1})
+
+>>> count_keywords("I like cheese.", ["cheese"])
+{'cheese': 1}
 ```
 
 ## Functions
