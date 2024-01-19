@@ -57,14 +57,13 @@ Here is an example:
 
 ``` bash
 from wordwright.preprocessing import clean_text
-from wordwright.wordwright import count_keywords
+from wordwright.count_keywords import count_keywords
 
 text = "The quick brown fox jumps over the lazy dog. The fox was very quick."
 stopwords = ["the", "over", "was", "very"]
 frequent_words(text, stopwords)
 # Counter({'quick': 2, 'fox': 2, 'brown': 1, 'jumps': 1, 'lazy': 1, 'dog': 1})
 
-from wordwright.wordwright import count_keywords
 count_keywords("I like cheese.", ["cheese"])
 # {'cheese': 1}
 ```
