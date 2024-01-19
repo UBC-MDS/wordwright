@@ -19,8 +19,7 @@ def frequent_words(text, stopwords=[]):
         and their counts, excluding the specified stopwords.
 
     Example:
-    >>> from wordwright.preprocessing import clean_text
-    >>> from collections import Counter
+    >>> from wordwright.word_frequency import frequent_words
     >>> text = "The quick brown fox jumps over the lazy dog. The fox was very quick."
     >>> stopwords = ["the", "over", "was", "very"]
     >>> frequent_words(text, stopwords)
