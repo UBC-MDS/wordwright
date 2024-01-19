@@ -8,8 +8,63 @@ This Python package `wordwright` focuses on text analysis and processing. It off
 
 ## Installation
 
+### Prerequisites
+
+### Step 1: Create and Activate the Conda Environment
+
+Create a new Conda environment using the environment.yaml file provided in this repository. This file contains all the necessary dependencies, including Python and Poetry versions.
+
+To create the environment, open your terminal and navigate to the directory where the environment.yaml file is located. Then, run the following command:
+
 ``` bash
-$ pip install wordwright
+$ conda env create -f environment.yaml
+```
+
+This command will create a new Conda environment named 524 and install the specified dependencies.
+
+Once the environment is created, you need to activate it using the following command:
+
+``` bash
+$ conda activate 524
+```
+
+### Step 2: Install the Package Using Poetry
+
+With the Conda environment activated, you can now use Poetry to install the package. Ensure that the environment is activated (you should see (524) in your terminal prompt).
+
+Run the following command to install the package using Poetry:
+
+``` bash
+$ poetry install
+```
+
+This command reads the pyproject.toml file in your project (if present) and installs the dependencies listed there.
+
+### Troubleshooting
+
+**Environment Creation Issues**: If you encounter problems while creating the Conda environment, ensure that the environment.yaml file is in the correct directory and that you have the correct version of Conda installed.
+
+**Poetry Installation Issues**: If poetry install fails, verify that Poetry is correctly installed in the Conda environment and that your pyproject.toml file is properly configured.
+
+## Usage
+
+### Using this package
+
+To use the `wordwright` package, you can import can call its functions in your Python scripts. 
+Here is an example:
+
+``` bash
+from wordwright.preprocessing import clean_text
+from wordwright.wordwright import count_keywords
+
+text = "The quick brown fox jumps over the lazy dog. The fox was very quick."
+stopwords = ["the", "over", "was", "very"]
+frequent_words(text, stopwords)
+# Counter({'quick': 2, 'fox': 2, 'brown': 1, 'jumps': 1, 'lazy': 1, 'dog': 1})
+
+from wordwright.wordwright import count_keywords
+count_keywords("I like cheese.", ["cheese"])
+# {'cheese': 1}
 ```
 
 ## Functions
