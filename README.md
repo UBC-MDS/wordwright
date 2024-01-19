@@ -62,7 +62,7 @@ This command reads the pyproject.toml file in your project (if present) and inst
 
 ### Using this package
 
-To use the `wordwright` package, you can import can call its functions in your Python envrionment.
+To use the `wordwright` package, you can import and call its functions in your Python environment.
 Here is an example:
 
 ``` bash
