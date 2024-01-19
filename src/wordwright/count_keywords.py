@@ -20,7 +20,7 @@ def count_keywords(text, keywords):
 
     Examples
     --------
-    >>> from wordwright.wordwright import count_keywords
+    >>> from wordwright.count_keywords import count_keywords
     >>> test = count_keywords("I like cheese.", ["cheese"])
     {'cheese': 1}
     """
