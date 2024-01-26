@@ -5,7 +5,7 @@ A package for text processing
 [![Documentation Status](https://readthedocs.org/projects/wordwright/badge/?version=latest)](https://wordwright.readthedocs.io/en/latest/?badge=latest)
 ![Codecov](https://img.shields.io/codecov/c/github/UBC-MDS/wordwright)
 ![Python Version](https://img.shields.io/badge/python-3.9.0-blue)
-![License](https://img.shields.io/github/license/YourUsername/YourRepository)
+![License](https://img.shields.io/github/license/UBC-MDS/wordwright)
 
 
 ## About
