@@ -2,6 +2,21 @@
 
 
 
+## v0.1.2 (2024-01-29)
+
+### Fix
+
+* fix: update ver to 2.1.1 ([`dd792a6`](https://github.com/UBC-MDS/wordwright/commit/dd792a6f2e9b8da5405cb2313cf8d428d0dac060))
+
+### Unknown
+
+* Update pyproject.toml ([`0a9a5e6`](https://github.com/UBC-MDS/wordwright/commit/0a9a5e6c357d48648816068cf76b24437a55b271))
+
+* new version ([`a9fcefd`](https://github.com/UBC-MDS/wordwright/commit/a9fcefdcf81cc46c39ee4633a98d535e77e43daa))
+
+* rollback ([`3ee8281`](https://github.com/UBC-MDS/wordwright/commit/3ee8281ad625d4a49a8b8ba885f5b88e5d6844ed))
+
+
 ## v0.1.1 (2024-01-29)
 
 ### Fix
