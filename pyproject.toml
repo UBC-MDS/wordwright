@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "wordwright"
-version = "0.1.1"
+version = "2.1.0"
 description = "A package for text processing"
 authors = ["Group 4"]
 license = "MIT"
@@ -24,14 +24,6 @@ jupyter = "^1.0.0"
 myst-nb = {version = "^1.0.0", python = "^3.9"}
 sphinx-autoapi = "^3.0.0"
 sphinx-rtd-theme = "^2.0.0"
-
-[tool.semantic_release]
-version_toml = [
-    "pyproject.toml:tool.poetry.version",
-]                                                    # version location
-branch = "main"                                      # branch to make releases of
-changelog_file = "CHANGELOG.md"                      # changelog file
-build_command = "pip install poetry && poetry build" # build dists
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
