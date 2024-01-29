@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "wordwright"
-version = "2.1.0"
+version = "0.1.1"
 description = "A package for text processing"
 authors = ["Group 4"]
 license = "MIT"

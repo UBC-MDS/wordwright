@@ -2,6 +2,23 @@
 
 
 
+## v0.1.1 (2024-01-29)
+
+### Fix
+
+* fix: update version 2.1.0 ([`c17b93c`](https://github.com/UBC-MDS/wordwright/commit/c17b93ce6880e4bcef2eb822d10897bc328d9be4))
+
+### Unknown
+
+* feat:set version to 2.1.0 ([`67fa3d5`](https://github.com/UBC-MDS/wordwright/commit/67fa3d57d3087b43e08c338d40ff641c1f6dfb1c))
+
+* feat:update version to be 0.1.0 ([`2f86418`](https://github.com/UBC-MDS/wordwright/commit/2f86418158b2a9b1e1fb026428697d6117447f6f))
+
+* Update README.md ([`bb0f6af`](https://github.com/UBC-MDS/wordwright/commit/bb0f6af49a0e022e1c02e625abd4770ad725022c))
+
+* feat:update version number ([`b6352e4`](https://github.com/UBC-MDS/wordwright/commit/b6352e42acfb8800375255f30c66669f3a91fbec))
+
+
 ## v0.1.0 (2024-01-29)
 
 ### Build
