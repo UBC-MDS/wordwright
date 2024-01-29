@@ -7,7 +7,7 @@ A package for text processing
 ![Python Version](https://img.shields.io/badge/python-3.9.0-blue)
 ![License](https://img.shields.io/github/license/UBC-MDS/wordwright)
 
-
+   
 ## About
 
 This Python package `wordwright` focuses on text analysis and processing. It offers a range of functions, from basic text cleaning to more complex analyses such as language detection, word and sentence counting, word frequency summarizing, and keyword searching. This functionality is particularly useful in fields like data analysis, natural language processing, and anywhere textual data needs to be understood or transformed. Functions are designed to be self-explanatory, which is especially beneficial for those new to programming or text processing.
