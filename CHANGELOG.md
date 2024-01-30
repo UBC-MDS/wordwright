@@ -2,6 +2,24 @@
 
 
 
+## v2.1.1 (2024-01-30)
+
+### Fix
+
+* fix: Update pyproject.toml ([`f126560`](https://github.com/UBC-MDS/wordwright/commit/f1265602f6d022715a93b0b7b319e834e7697ec3))
+
+### Unknown
+
+* fix:Update pyproject.toml ([`e75b86c`](https://github.com/UBC-MDS/wordwright/commit/e75b86cd6ae5934737c01967032dec3329364d7c))
+
+
+## v2.1.0 (2024-01-30)
+
+### Unknown
+
+* BREAKING CHANGES: test update ver 2 ([`dae4ec6`](https://github.com/UBC-MDS/wordwright/commit/dae4ec6f2998b47cd27ea6a9ff86df773a85f0cd))
+
+
 ## v0.1.2 (2024-01-29)
 
 ### Fix
