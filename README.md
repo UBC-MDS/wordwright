@@ -102,8 +102,6 @@ Counter({'quick': 2, 'fox': 2, 'brown': 1, 'jumps': 1, 'lazy': 1, 'dog': 1})
 
 -   `frequent_words(text, number, stopwards)`: Analyzes a given text to find and return the most frequent words, excluding specified stopwords. Required inputs are `text`, `number`, and `stopwards`, which are the cleaned text to be analyzed, the number of most frequent words to return, and a list of words to be excluded from the analysis.
 
-## Developer notes
-
 ### Running the tests
 
 After Installation Step 3 `poetry install`, navigate to the project root directory and use the following command in terminal to test the functions defined in the projects. Tests are stored in [here](https://github.com/UBC-MDS/wordwright/tree/main/tests).
@@ -114,7 +112,7 @@ $ pytest tests/*
 
 ## `wordwright` Use in Python Ecosystem
 
-While there are other packages that offer similar functions, such as [Natural Language Toolkit](https://www.nltk.org/) and [TextBlob](https://textblob.readthedocs.io/en/dev/). `wordwright` distinguishes itself by its simplicity and focus on the most essential text processing features. It is designed for ease of use, making it an excellent choice for those who have basic programming knowledge.
+While there are other packages that offer similar functions, such as [Natural Language Toolkit](https://www.nltk.org/) (n.d.) and [TextBlob](https://textblob.readthedocs.io/en/dev/) (n.d.). `wordwright` distinguishes itself by its simplicity and focus on the most essential text processing features. It is designed for ease of use, making it an excellent choice for those who have basic programming knowledge.
 
 ## Contributors
 
@@ -137,3 +135,9 @@ Interested in contributing? Check out the contributing guidelines. Please note t
 ## Credits
 
 `wordwright` was created with [`cookiecutter`](https://cookiecutter.readthedocs.io/en/latest/) and the `py-pkgs-cookiecutter` [template](https://github.com/py-pkgs/py-pkgs-cookiecutter).
+
+## Reference
+
+NLTK. (n.d.). <https://www.nltk.org/>
+
+TextBlob. (n.d.). Simplified text processing. <https://textblob.readthedocs.io/en/dev/>
