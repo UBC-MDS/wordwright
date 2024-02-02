@@ -2,15 +2,13 @@
 
 A package for text processing
 
-[![Documentation Status](https://readthedocs.org/projects/wordwright/badge/?version=latest)](https://wordwright.readthedocs.io/en/latest/?badge=latest)
-![Codecov](https://img.shields.io/codecov/c/github/UBC-MDS/wordwright)
-![Python Version](https://img.shields.io/badge/python-3.9.0-blue)
-![License](https://img.shields.io/github/license/UBC-MDS/wordwright)
+[![Documentation Status](https://readthedocs.org/projects/wordwright/badge/?version=latest)](https://wordwright.readthedocs.io/en/latest/?badge=latest) ![Codecov](https://img.shields.io/codecov/c/github/UBC-MDS/wordwright) ![Python Version](https://img.shields.io/badge/python-3.9.0-blue) ![License](https://img.shields.io/github/license/UBC-MDS/wordwright)
 
-   
-## About
+In today\'s world, text is omnipresent and serves as more than just a form of communication. From the briefest tweets to in-depth blog posts, from academic papers to business emails, our digital world is full of textual content. The ability to read, analyze, and derive meaning from the written content is crucial. This is where our text analysis package `wordwright` enters the picture.
 
-This Python package `wordwright` focuses on text analysis and processing. It offers a range of functions, from basic text cleaning to more complex analyses such as language detection, word and sentence counting, word frequency summarizing, and keyword searching. This functionality is particularly useful in fields like data analysis, natural language processing, and anywhere textual data needs to be understood or transformed. Functions are designed to be self-explanatory, which is especially beneficial for those new to programming or text processing.
+## Package Summary
+
+This Python package [`wordwright`](https://wordwright.readthedocs.io/en/latest/index.html) focuses on text analysis and processing. It offers a range of functions, from basic text cleaning to more complex analyses such as language detection, word and sentence counting, word frequency summarizing, and keyword searching. This functionality is particularly useful in fields like data analysis, natural language processing, and anywhere textual data needs to be understood or transformed. Functions are designed to be self-explanatory, which is especially beneficial for those new to programming or text processing. Tutorial could be found [here](https://wordwright.readthedocs.io/en/latest/example.html).
 
 ## Installation
 
@@ -68,8 +66,7 @@ This command reads the pyproject.toml file in your project (if present) and inst
 
 ### Using this package
 
-To use the `wordwright` package, you can import and call its functions in your Python environment.
-Here is an example:
+To use the `wordwright` package, you can import and call its functions in your Python environment. Here is an example:
 
 ``` bash
 
@@ -87,7 +84,6 @@ Counter({'quick': 2, 'fox': 2, 'brown': 1, 'jumps': 1, 'lazy': 1, 'dog': 1})
 
 >>> count_keywords("I like cheese.", ["cheese"])
 {'cheese': 1}
-
 ```
 
 ## Functions
