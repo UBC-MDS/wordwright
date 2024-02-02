@@ -4,7 +4,7 @@ A package for text processing
 
 ![](docs/logo.jpg)
 
-[![Documentation Status](https://readthedocs.org/projects/wordwright/badge/?version=latest)](https://wordwright.readthedocs.io/en/latest/?badge=latest) ![Codecov](https://img.shields.io/codecov/c/github/UBC-MDS/wordwright) ![Python Version](https://img.shields.io/badge/python-3.9.0-blue) ![License](https://img.shields.io/github/license/UBC-MDS/wordwright)
+[![Documentation Status](https://readthedocs.org/projects/wordwright/badge/?version=latest)](https://wordwright.readthedocs.io/en/latest/?badge=latest) ![Codecov](https://img.shields.io/codecov/c/github/UBC-MDS/wordwright) ![Python Version](https://img.shields.io/badge/python-3.9.0-blue) ![License](https://img.shields.io/github/license/UBC-MDS/wordwright) ![PyPI](https://img.shields.io/pypi/v/wordwright.svg) ![CI/CD](https://img.shields.io/badge/ci%20cd-passing-brightgreen) ![Code Size](https://img.shields.io/badge/code%20size-25.8%20kB-blue) ![Release](https://img.shields.io/badge/release-v2.0.7-blue) ![Release Date](https://img.shields.io/badge/release%20date-today-brightgreen) ![Project Status](https://img.shields.io/badge/repo%20status-Active-brightgreen)
 
 In today's world, text is omnipresent and serves as more than just a form of communication. From the briefest tweets to in-depth blog posts, from academic papers to business emails, our digital world is full of textual content. The ability to read, analyze, and derive meaning from the written content is crucial. This is where our text analysis package `wordwright` enters the picture.
 
