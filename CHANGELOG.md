@@ -2,6 +2,23 @@
 
 
 
+## v2.1.4 (2024-02-02)
+
+### Fix
+
+* fix: Feedback on badges addressed by Yingzi ([`e68abb0`](https://github.com/UBC-MDS/wordwright/commit/e68abb04b1464a95790a1646a41ce93263434175))
+
+### Unknown
+
+* Merge pull request #82 from UBC-MDS/update-name-of-environment
+
+fix: Feedback on badges addressed by Yingzi ([`1a67f52`](https://github.com/UBC-MDS/wordwright/commit/1a67f5232dd14d3e23834f4c135a40cb2aaed5fa))
+
+* Merge pull request #81 from UBC-MDS/add-badges
+
+fix: Feedback on badges addressed by Yingzi ([`c4818ff`](https://github.com/UBC-MDS/wordwright/commit/c4818fffb81342f1a39ccfaf0b1e40b91946c2c1))
+
+
 ## v2.1.3 (2024-02-02)
 
 ### Fix
