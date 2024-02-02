@@ -18,15 +18,16 @@ Yi Han ([\@yhan178](https://github.com/yhan178)), Yingzi Jin ([\@jinyz8888](http
 
 ## Installation
 
+### Install from PyPI
 Run this command to install the package
 
 ``` bash
 $ pip install wordwright
 ```
-
+### Install from GitHub
 If the installation is unsuccessful, please consider the following process. Before proceeding with the installation, ensure you have Miniconda/Anaconda installed on your system. These tools provide support for creating and managing Conda environments.
 
-### Step 1: Clone the Repository
+#### Step 1: Clone the Repository
 
 Start by cloning the repository to your local machine. Open your terminal and run the following command:
 
@@ -36,7 +37,7 @@ $ git clone git@github.com:UBC-MDS/wordwright.git
 
 Navigate to the directory of the cloned repository.
 
-### Step 2: Create and Activate the Conda Environment
+#### Step 2: Create and Activate the Conda Environment
 
 Create a new Conda environment using the `environment.yaml` file provided in this repository. This file contains all the necessary dependencies, including both Python and Poetry versions.
 
@@ -48,7 +49,7 @@ $ conda env create -f environment.yaml
 $ conda activate wordwright
 ```
 
-### Step 3: Install the Package Using Poetry
+#### Step 3: Install the Package Using Poetry
 
 With the Conda environment activated, you can now use Poetry to install the package. Run the following command to install the package using Poetry:
 
@@ -108,7 +109,7 @@ Counter({'quick': 2, 'fox': 2, 'brown': 1, 'jumps': 1, 'lazy': 1, 'dog': 1})
 
 ## `wordwright` Use in Python Ecosystem
 
-While there are other packages that offer similar functions, such as [Natural Language Toolkit](https://www.nltk.org/) (n.d.) and [TextBlob](https://textblob.readthedocs.io/en/dev/) (n.d.). `wordwright` distinguishes itself by its simplicity and focus on the most essential text processing features. It is designed for ease of use, making it an excellent choice for those who have basic programming knowledge.
+While there are other packages that offer similar functions, such as [Natural Language Toolkit](https://www.nltk.org/) (Loper & Bird, 2002) and [TextBlob](https://textblob.readthedocs.io/en/dev/) (Loria, 2018). `wordwright` distinguishes itself by its simplicity and focus on the most essential text processing features. It is designed for ease of use, making it an excellent choice for those who have basic programming knowledge.
 
 ## Contributing
 
@@ -124,6 +125,6 @@ Interested in contributing? Check out the contributing guidelines. Please note t
 
 ## Reference
 
-NLTK. (n.d.). <https://www.nltk.org/>
+Loper, E., & Bird, S. (2002). Nltk: The natural language toolkit. arXiv preprint cs/0205028.
 
-TextBlob. (n.d.). Simplified text processing. <https://textblob.readthedocs.io/en/dev/>
+Loria, S. (2018). textblob Documentation. Release 0.15, 2(8), 269.
