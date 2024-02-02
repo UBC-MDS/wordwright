@@ -66,8 +66,6 @@ This command reads the pyproject.toml file in your project (if present) and inst
 
 **Environment Creation Issues**: If you encounter problems while creating the Conda environment, ensure that the environment.yaml file is in the correct directory and that you have the correct version of Conda installed.
 
-**Poetry Installation Issues**: If poetry install fails, verify that Poetry is correctly installed in the Conda environment and that your pyproject.toml file is properly configured.
-
 ## Usage
 
 ### Using this package
