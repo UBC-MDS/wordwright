@@ -10,7 +10,7 @@ In today's world, text is omnipresent and serves as more than just a form of com
 
 ## Package Summary
 
-This Python package [`wordwright`](https://wordwright.readthedocs.io/en/latest/index.html) focuses on text analysis and processing. It offers a range of functions, from basic text cleaning to more complex analyses such as language detection, word and sentence counting, word frequency summarizing, and keyword searching. This functionality is particularly useful in fields like data analysis, natural language processing, and anywhere textual data needs to be understood or transformed. Functions are designed to be self-explanatory, which is especially beneficial for those new to programming or text processing. Tutorial could be found [here](https://wordwright.readthedocs.io/en/latest/example.html).
+This Python package [`wordwright`](https://wordwright.readthedocs.io/en/latest/index.html) focuses on text analysis and processing. It offers a range of functions, from basic text cleaning to more complex analyses such as language detection, word and sentence counting, word frequency summarizing, and keyword searching. This functionality is particularly useful in fields like data analysis, natural language processing, and anywhere textual data needs to be understood or transformed. Functions are designed to be self-explanatory, which is especially beneficial for those new to programming or text processing. Quickstart guide could be found [here](https://wordwright.readthedocs.io/en/latest/example.html).
 
 ## Contributors
 
@@ -18,9 +18,13 @@ Yi Han ([\@yhan178](https://github.com/yhan178)), Yingzi Jin ([\@jinyz8888](http
 
 ## Installation
 
-### Prerequisites
+Run this command to install the package
 
-Before proceeding with the installation, ensure you have Miniconda or Anaconda installed on your system. These tools provide support for creating and managing Conda environments.
+``` bash
+$ pip install wordwright
+```
+
+If the installation is unsuccessful, please consider the following process. Before proceeding with the installation, ensure you have Miniconda/Anaconda installed on your system. These tools provide support for creating and managing Conda environments.
 
 ### Step 1: Clone the Repository
 
@@ -34,27 +38,19 @@ Navigate to the directory of the cloned repository.
 
 ### Step 2: Create and Activate the Conda Environment
 
-Create a new Conda environment using the environment.yaml file provided in this repository. This file contains all the necessary dependencies, including Python and Poetry versions.
+Create a new Conda environment using the `environment.yaml` file provided in this repository. This file contains all the necessary dependencies, including both Python and Poetry versions.
 
-To create the environment, open your terminal and navigate to the directory where the environment.yaml file is located. Then, run the following command:
+To create the environment, open your terminal and navigate to the directory where the `environment.yaml` file is located. Then, run the following command:
 
 ``` bash
 $ conda env create -f environment.yaml
-```
 
-This command will create a new Conda environment named 524 and install the specified dependencies.
-
-Once the environment is created, you need to activate it using the following command:
-
-``` bash
-$ conda activate 524
+$ conda activate wordwright
 ```
 
 ### Step 3: Install the Package Using Poetry
 
-With the Conda environment activated, you can now use Poetry to install the package. Ensure that the environment is activated (you should see (524) in your terminal prompt).
-
-Run the following command to install the package using Poetry:
+With the Conda environment activated, you can now use Poetry to install the package. Run the following command to install the package using Poetry:
 
 ``` bash
 $ poetry install
@@ -62,13 +58,19 @@ $ poetry install
 
 This command reads the pyproject.toml file in your project (if present) and installs the dependencies listed there.
 
+### Running the tests
+
+Navigate to the project root directory and use the following command in terminal to test the functions defined in the projects. Tests are stored in [here](#0).
+
+``` bash
+$ pytest tests/*
+```
+
 ### Troubleshooting
 
 **Environment Creation Issues**: If you encounter problems while creating the Conda environment, ensure that the environment.yaml file is in the correct directory and that you have the correct version of Conda installed.
 
 ## Usage
-
-### Using this package
 
 To use the `wordwright` package, you can import and call its functions in your Python environment. Here is an example:
 
@@ -103,14 +105,6 @@ Counter({'quick': 2, 'fox': 2, 'brown': 1, 'jumps': 1, 'lazy': 1, 'dog': 1})
 -   `language_detection(text)`: Detects if the text is in English or not. Required input is `text`, which is the text to be checked for language.
 
 -   `frequent_words(text, number, stopwards)`: Analyzes a given text to find and return the most frequent words, excluding specified stopwords. Required inputs are `text`, `number`, and `stopwards`, which are the cleaned text to be analyzed, the number of most frequent words to return, and a list of words to be excluded from the analysis.
-
-### Running the tests
-
-After Installation Step 3 `poetry install`, navigate to the project root directory and use the following command in terminal to test the functions defined in the projects. Tests are stored in [here](https://github.com/UBC-MDS/wordwright/tree/main/tests).
-
-``` bash
-$ pytest tests/*
-```
 
 ## `wordwright` Use in Python Ecosystem
 
