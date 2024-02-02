@@ -6,8 +6,8 @@ A package for text processing
 
 [![ci-cd](https://github.com/UBC-MDS/wordwright/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/UBC-MDS/wordwright/actions/workflows/ci-cd.yml)
 [![codecov](https://codecov.io/gh/UBC-MDS/wordwright/graph/badge.svg?token=0cuB4J7YN9)](https://codecov.io/gh/UBC-MDS/wordwright)
-[![Documentation Status](https://readthedocs.org/projects/text-processing-util-mds24/badge/?version=latest)](https://text-processing-util-mds24.readthedocs.io/en/latest/?badge=latest)
-[![PyPI - Version](https://img.shields.io/pypi/v/text-processing-util-mds24)](https://pypi.org/project/text-processing-util-mds24/)
+[![Documentation Status](https://readthedocs.org/projects/wordwright/badge/?version=latest)](https://wordwright.readthedocs.io/en/latest/?badge=latest)
+[![PyPI - Version](https://img.shields.io/pypi/v/wordwright)](https://pypi.org/project/wordwright/)
 [![Python 3.9.0](https://img.shields.io/badge/python-3.9.0-blue.svg)](https://www.python.org/downloads/release/python-390/)
 [![version](https://img.shields.io/github/v/release/UBC-MDS/wordwright)](https://github.com/UBC-MDS/wordwright/releases)
 [![release](https://img.shields.io/github/release-date/UBC-MDS/wordwright)](https://github.com/UBC-MDS/wordwright/releases)
