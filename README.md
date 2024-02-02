@@ -70,7 +70,7 @@ $ pytest tests/*
 
 **Environment Creation Issues**: If you encounter problems while creating the Conda environment, ensure that the environment.yaml file is in the correct directory and that you have the correct version of Conda installed.
 
-## Usage
+## Example Usage
 
 To use the `wordwright` package, you can import and call its functions in your Python environment. Here is an example:
 
