@@ -12,6 +12,10 @@ In today's world, text is omnipresent and serves as more than just a form of com
 
 This Python package [`wordwright`](https://wordwright.readthedocs.io/en/latest/index.html) focuses on text analysis and processing. It offers a range of functions, from basic text cleaning to more complex analyses such as language detection, word and sentence counting, word frequency summarizing, and keyword searching. This functionality is particularly useful in fields like data analysis, natural language processing, and anywhere textual data needs to be understood or transformed. Functions are designed to be self-explanatory, which is especially beneficial for those new to programming or text processing. Tutorial could be found [here](https://wordwright.readthedocs.io/en/latest/example.html).
 
+## Contributors
+
+Yi Han ([\@yhan178](https://github.com/yhan178)), Yingzi Jin ([\@jinyz8888](https://github.com/jinyz8888)), Yi Yan ([\@carrieyanyi](https://github.com/carrieyanyi)), Hongyang Zhang ([\@alexzhang0825](https://github.com/alexzhang0825))
+
 ## Installation
 
 ### Prerequisites
@@ -113,16 +117,6 @@ $ pytest tests/*
 ## `wordwright` Use in Python Ecosystem
 
 While there are other packages that offer similar functions, such as [Natural Language Toolkit](https://www.nltk.org/) (n.d.) and [TextBlob](https://textblob.readthedocs.io/en/dev/) (n.d.). `wordwright` distinguishes itself by its simplicity and focus on the most essential text processing features. It is designed for ease of use, making it an excellent choice for those who have basic programming knowledge.
-
-## Contributors
-
-Yi Han (@yhan178)
-
-Yingzi Jin (@jinyz8888)
-
-Yi Yan (@carrieyanyi)
-
-Hongyang Zhang (@alexzhang0825)
 
 ## Contributing
 
