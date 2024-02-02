@@ -2,6 +2,19 @@
 
 
 
+## v3.0.1 (2024-02-02)
+
+### Fix
+
+* fix: update badges ([`f77011e`](https://github.com/UBC-MDS/wordwright/commit/f77011e60dd83e78d00a240162705f7a2a3a65a3))
+
+### Unknown
+
+* Merge pull request #87 from UBC-MDS/update-badges
+
+fix: update badges ([`2074fd3`](https://github.com/UBC-MDS/wordwright/commit/2074fd3815cf70813511dea30f3d271d4f9ffc62))
+
+
 ## v3.0.0 (2024-02-02)
 
 ### Breaking
