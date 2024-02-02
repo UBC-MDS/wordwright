@@ -2,9 +2,11 @@
 
 A package for text processing
 
+![](docs/logo.jpg)
+
 [![Documentation Status](https://readthedocs.org/projects/wordwright/badge/?version=latest)](https://wordwright.readthedocs.io/en/latest/?badge=latest) ![Codecov](https://img.shields.io/codecov/c/github/UBC-MDS/wordwright) ![Python Version](https://img.shields.io/badge/python-3.9.0-blue) ![License](https://img.shields.io/github/license/UBC-MDS/wordwright)
 
-In today\'s world, text is omnipresent and serves as more than just a form of communication. From the briefest tweets to in-depth blog posts, from academic papers to business emails, our digital world is full of textual content. The ability to read, analyze, and derive meaning from the written content is crucial. This is where our text analysis package `wordwright` enters the picture.
+In today's world, text is omnipresent and serves as more than just a form of communication. From the briefest tweets to in-depth blog posts, from academic papers to business emails, our digital world is full of textual content. The ability to read, analyze, and derive meaning from the written content is crucial. This is where our text analysis package `wordwright` enters the picture.
 
 ## Package Summary
 
