@@ -2,6 +2,27 @@
 
 
 
+## v3.0.0 (2024-02-02)
+
+### Breaking
+
+* feat!: This describes the updates for milestone 4
+
+BREAKING CHANGES: new readme, tutorial ([`491c67d`](https://github.com/UBC-MDS/wordwright/commit/491c67d2a684ff8f1d5f738c013897b4a97d8d63))
+
+### Unknown
+
+* Merge pull request #86 from UBC-MDS/for-milestone-4
+
+feat!: This describes the updates for milestone 4 ([`47b7289`](https://github.com/UBC-MDS/wordwright/commit/47b72890103f90f2a547954e57cde3417666e65e))
+
+* Merge pull request #83 from UBC-MDS/carrieyanyi-patch-1
+
+update references format ([`104cd4b`](https://github.com/UBC-MDS/wordwright/commit/104cd4bab09640f3be3ad5a21841839e74532bf8))
+
+* update references format ([`667bab3`](https://github.com/UBC-MDS/wordwright/commit/667bab3fcef3fb66af1a285546c85a4ab94bd4ef))
+
+
 ## v2.1.4 (2024-02-02)
 
 ### Fix
