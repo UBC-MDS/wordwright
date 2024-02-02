@@ -2,6 +2,51 @@
 
 
 
+## v2.1.2 (2024-02-02)
+
+### Fix
+
+* fix: Feedback on vignettes addressed by Yi Han ([`1ff429e`](https://github.com/UBC-MDS/wordwright/commit/1ff429eaf39b516a80ef53c7f6fcfe88990fc1f1))
+
+### Unknown
+
+* Merge pull request #78 from UBC-MDS/vignette_update
+
+fix: Feedback on vignettes addressed by Yi Han ([`4e968c9`](https://github.com/UBC-MDS/wordwright/commit/4e968c94b3fdc6e6ea98d4b95a30281a2264408a))
+
+* Merge pull request #77 from UBC-MDS/readme_m4
+
+Update Readme file ([`0b400b2`](https://github.com/UBC-MDS/wordwright/commit/0b400b2b9a2201262710ee01f8d9d31c70c33618))
+
+* Merge pull request #76 from UBC-MDS/fixing_the_word_example
+
+fix: Feedback addressed by Hongyang Zhang ([`bf3c0bc`](https://github.com/UBC-MDS/wordwright/commit/bf3c0bc0eb25a8b2fa642063efdfe7ab95a8fe38))
+
+* Fix: Feedback on env name in README addressed by Yi Yan ([`81e4c9d`](https://github.com/UBC-MDS/wordwright/commit/81e4c9d011e5ab3d8d6978ab8b2b522606200d2e))
+
+* update installation in readme ([`ed26169`](https://github.com/UBC-MDS/wordwright/commit/ed2616940903af26425d6addc55970ab13a477ef))
+
+* Fix: Feedback on troubleshooting addressed by Yi Yan ([`0b64a48`](https://github.com/UBC-MDS/wordwright/commit/0b64a480f4a1a9b1831cc0f57a55cbc95427edff))
+
+* Fix: Feedback on include hyperlink to each contributor addressed by Yi Yan ([`91d0e3f`](https://github.com/UBC-MDS/wordwright/commit/91d0e3f2764a439814d962006817a645ed8f301a))
+
+* Fix: Feedback on citation addressed by Yi Yan ([`cf8b006`](https://github.com/UBC-MDS/wordwright/commit/cf8b006459216573e99d35f61f2058c684880811))
+
+* Fix: Feedback on statement of need addressed by Yi Yan ([`699bc86`](https://github.com/UBC-MDS/wordwright/commit/699bc864e023c14c525f75969ba795b5baacf5fb))
+
+* add package logo ([`6b0e3bf`](https://github.com/UBC-MDS/wordwright/commit/6b0e3bf45d1150c980aa018a65a7815d6b9ffc05))
+
+* Fix: Feedback on adding link in readmefile addressed by Yi Yan ([`12d9750`](https://github.com/UBC-MDS/wordwright/commit/12d9750826755351ad5ca1b82795a67297f2fd55))
+
+* apparently the word should have been Examples instead of Example. that has been fixed ([`c7f8ac4`](https://github.com/UBC-MDS/wordwright/commit/c7f8ac4c641eda9f6f5934bec08a1e3529dd3239))
+
+* Merge pull request #75 from UBC-MDS/fixing_frequent_words_example_in_the_API
+
+fix: Feedback addressed by Orix Au Yeung ([`f98beec`](https://github.com/UBC-MDS/wordwright/commit/f98beec74e48e87e40cb842ab64a80dd7d9a36ff))
+
+* fixed the format of the docstring for frequent_words ([`c715ea4`](https://github.com/UBC-MDS/wordwright/commit/c715ea4a8eecbed3057f641966c41bc6dfb6b8cd))
+
+
 ## v2.1.1 (2024-01-30)
 
 ### Fix
