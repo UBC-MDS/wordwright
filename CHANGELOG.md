@@ -2,6 +2,19 @@
 
 
 
+## v2.1.3 (2024-02-02)
+
+### Fix
+
+* fix: Feedback on environment addressed by Yingzi ([`0423875`](https://github.com/UBC-MDS/wordwright/commit/0423875c72702f06163fbfef903c67302d3287d3))
+
+### Unknown
+
+* Merge pull request #79 from UBC-MDS/update-name-of-environment
+
+fix: Feedback on environment addressed by Yingzi ([`f62806e`](https://github.com/UBC-MDS/wordwright/commit/f62806eb671c9801ee3f02174abf85fe4704efc9))
+
+
 ## v2.1.2 (2024-02-02)
 
 ### Fix
