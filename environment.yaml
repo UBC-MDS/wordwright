@@ -1,4 +1,4 @@
-name: '524'
+name: 'wordwright'
 channels:
   - conda-forge
   - defaults
