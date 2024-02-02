@@ -4,7 +4,16 @@ A package for text processing
 
 ![](docs/logo.jpg)
 
-[![Documentation Status](https://readthedocs.org/projects/wordwright/badge/?version=latest)](https://wordwright.readthedocs.io/en/latest/?badge=latest) ![Codecov](https://img.shields.io/codecov/c/github/UBC-MDS/wordwright) ![Python Version](https://img.shields.io/badge/python-3.9.0-blue) ![License](https://img.shields.io/github/license/UBC-MDS/wordwright) ![PyPI](https://img.shields.io/pypi/v/wordwright.svg) ![CI/CD](https://img.shields.io/badge/ci%20cd-passing-brightgreen) ![Code Size](https://img.shields.io/badge/code%20size-25.8%20kB-blue) ![Release](https://img.shields.io/badge/release-v2.0.7-blue) ![Release Date](https://img.shields.io/badge/release%20date-today-brightgreen) ![Project Status](https://img.shields.io/badge/repo%20status-Active-brightgreen)
+[![ci-cd](https://github.com/UBC-MDS/wordwright/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/UBC-MDS/wordwright/actions/workflows/ci-cd.yml)
+[![codecov](https://codecov.io/gh/UBC-MDS/wordwright/graph/badge.svg?token=0cuB4J7YN9)](https://codecov.io/gh/UBC-MDS/wordwright)
+[![Documentation Status](https://readthedocs.org/projects/text-processing-util-mds24/badge/?version=latest)](https://text-processing-util-mds24.readthedocs.io/en/latest/?badge=latest)
+[![PyPI - Version](https://img.shields.io/pypi/v/text-processing-util-mds24)](https://pypi.org/project/text-processing-util-mds24/)
+[![Python 3.9.0](https://img.shields.io/badge/python-3.9.0-blue.svg)](https://www.python.org/downloads/release/python-390/)
+[![version](https://img.shields.io/github/v/release/UBC-MDS/wordwright)](https://github.com/UBC-MDS/wordwright/releases)
+[![release](https://img.shields.io/github/release-date/UBC-MDS/wordwright)](https://github.com/UBC-MDS/wordwright/releases)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Project Status: Active -- The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+
 
 In today's world, text is omnipresent and serves as more than just a form of communication. From the briefest tweets to in-depth blog posts, from academic papers to business emails, our digital world is full of textual content. The ability to read, analyze, and derive meaning from the written content is crucial. This is where our text analysis package `wordwright` enters the picture.
 
